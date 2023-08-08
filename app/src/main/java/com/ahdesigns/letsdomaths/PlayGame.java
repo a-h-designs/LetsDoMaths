@@ -1,6 +1,7 @@
 package com.ahdesigns.letsdomaths;
 
 import android.app.Activity;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,7 +12,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
-import android.content.SharedPreferences;
 
 public class PlayGame extends Activity implements View.OnClickListener{
 
@@ -197,7 +197,7 @@ public class PlayGame extends Activity implements View.OnClickListener{
                 Collections.sort(scoreStrings);
                 StringBuilder scoreBuild = new StringBuilder("");
                 for(int s=0; s<scoreStrings.size(); s++){
-                    if(s>=10) break;//only want ten
+                    if(s>=20) break;//only want twenty
                     if(s>0) scoreBuild.append("|");//pipe separate the score strings
                     scoreBuild.append(scoreStrings.get(s).getScoreText());
                 }
