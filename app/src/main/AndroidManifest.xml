@@ -23,25 +23,17 @@
         </activity>
         <activity
             android:name=".HighScores"
-            android:exported="false"
-            android:launchMode="singleTop"
-            android:parentActivityName=".MainActivity" />
+            android:exported="false" />
         <activity
             android:name=".HowToPlay"
-            android:exported="false"
-            android:launchMode="singleTop"
-            android:parentActivityName=".MainActivity" />
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"
-            android:launchMode="singleTop"
-            android:parentActivityName=".MainActivity" />
+            android:exported="false" />
         <activity
             android:name=".PlayGame"
             android:exported="false"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:launchMode="singleTop"
-            android:parentActivityName=".MainActivity" />
+            android:configChanges="keyboardHidden|orientation|screenSize" />
     </application>
 
 </manifest>
