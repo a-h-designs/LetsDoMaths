@@ -6,6 +6,9 @@
     <string name="activity_howto">How To Play</string>
     <string name="activity_highscores">High Scores</string>
 
+    <string name="help_info">Let\'s Do Maths! is an arithmetic game.\n\nChoose Easy, Medium or Hard level to begin.\n\nAnswer the question by typing on the number pad displayed and pressing enter. Press the C button to clear an existing answer. Each question may be an addition, subtraction, multiplication or division.\n\nYour twenty best scores will automatically be saved into the High Scores.</string>
+
+
     <string name="score">Score: 0</string>
     <string name="equation">0 + 0</string>
     <string name="answer">= \?</string>

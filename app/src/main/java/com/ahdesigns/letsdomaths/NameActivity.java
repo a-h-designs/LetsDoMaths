@@ -16,7 +16,7 @@ public class NameActivity extends AppCompatActivity implements OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.nameactivity);
+        setContentView(R.layout.name_activity);
 
         Button enterBtn = (Button) findViewById(R.id.enter_btn);
         name = (EditText)findViewById(R.id.name);
