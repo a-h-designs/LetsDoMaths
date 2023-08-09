@@ -21,8 +21,8 @@
             android:contentDescription="@string/operators"/>
         <EditText
             android:id="@+id/name"
-            android:maxLength="20"
-            android:inputType="text"
+            android:maxLength="30"
+            android:inputType="textCapWords"
             android:autofillHints="name"
             android:layout_width="260dp"
             android:layout_height="wrap_content"
@@ -32,7 +32,8 @@
             android:textSize="20sp"
             android:gravity="center"
             android:hint="@string/name"
-            android:textColorHint="#ff1CB5E0"/>
+            android:textColorHint="#ff1CB5E0"
+            android:imeOptions="actionSearch"/>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/enter_btn"
             android:layout_width="wrap_content"
@@ -46,6 +47,6 @@
             android:textColor="#ff333333"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:onClick="test"/>
+            android:onClick="enter"/>
     </RelativeLayout>
 </ScrollView>
